@@ -1,0 +1,129 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("spring.png");
+}
+
+h1 {
+	border-style: solid;
+	border-width: 3px;
+	background-color: #25da41;
+	position: absolute;
+	margin: 0px;
+	bottom: 10px;
+	left: 500px;
+	bottom: 50px;
+}
+
+h2 {
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	background-color: #25da41;
+	position: absolute;
+	margin: 0px;
+	bottom: 10px;
+	left: 500px;
+	bottom: 50px;
+}
+
+h3 {
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	background-color: #25da41;
+	position: absolute;
+	margin: 0px;
+	bottom: 10px;
+	left: 500px;
+	bottom: 50px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+.link:link, .link:visited {
+	display: block;
+	width: 120px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.link:active, .link:hover {
+	background-image: url("hover.gif");
+	backround-repeat: repeat-x;
+}
+
+.img {
+	text-decoration: none;
+	background-image: none;
+	border: 0;
+	border-width: 0;
+}
+
+.header {
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	margin: auto;
+}
+
+.Menu {
+	background-image: url("active.gif");
+	backround-repeat: repeat-x;
+	position: relative;
+	text-decoration: none;
+	height: 20%;
+	width: 100%;
+	margin: auto;
+	top: 200px;
+}
+
+.content {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	top: 210px;
+}
+
+.imagine {
+	border-style: solid;
+	border-width: 2px;
+	background-color: #FFFFFF;
+	top: 200px;
+}
+
+.blue{
+	
+	color : #004040;
+}
+	
+button{
+	background-color: #25da41;
+	border-width: 3px;
+    padding: 10px 15px;
+    font : Vivaldi;
+    color: #000000;
+    font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase, bold;
+   	position: absolute;
+	margin: 0px;
+	bottom: 10px;
+	left: 500px;
+	bottom: 50px;
+}
